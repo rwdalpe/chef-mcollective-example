@@ -1,0 +1,22 @@
+{
+	"name": "client",
+	"chef_type": "role",
+	"json_class": "Chef::Role",
+	"description": "The Chef client and MCollective client for the demo",
+	"run_list": [
+		"recipe[chef-client-hosts::default]",
+		"recipe[chef-client-files::default]",
+		"recipe[chef-client::default]",
+		"recipe[chef-client::config]"
+	],
+	"default_attributes": {
+		"chef_client": {
+			"config" : {
+				"ssl_verify_mode": ":verify_none",
+				"chef_server_url": "https://chefserver/organizations/org",
+				"validation_client_name": "org-validator",
+				"verify_api_cert": false
+			}
+		}
+	}
+}

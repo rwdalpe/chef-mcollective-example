@@ -1,0 +1,21 @@
+[submodule "imaginary_fileshare/cookbooks/chef-server"]
+	path = imaginary_fileshare/cookbooks/chef-server
+	url = https://github.com/chef-cookbooks/chef-server.git
+[submodule "imaginary_fileshare/cookbooks/chef-client"]
+	path = imaginary_fileshare/cookbooks/chef-client
+	url = https://github.com/chef-cookbooks/chef-client.git
+[submodule "imaginary_fileshare/cookbooks/hostsfile"]
+	path = imaginary_fileshare/cookbooks/hostsfile
+	url = https://github.com/customink-webops/hostsfile.git
+[submodule "imaginary_fileshare/cookbooks/cron"]
+	path = imaginary_fileshare/cookbooks/cron
+	url = https://github.com/chef-cookbooks/cron.git
+[submodule "imaginary_fileshare/cookbooks/logrotate"]
+	path = imaginary_fileshare/cookbooks/logrotate
+	url = https://github.com/stevendanna/logrotate.git
+[submodule "imaginary_fileshare/cookbooks/windows"]
+	path = imaginary_fileshare/cookbooks/windows
+	url = https://github.com/chef-cookbooks/windows.git
+[submodule "imaginary_fileshare/cookbooks/chef_handler"]
+	path = imaginary_fileshare/cookbooks/chef_handler
+	url = https://github.com/chef-cookbooks/chef_handler.git
