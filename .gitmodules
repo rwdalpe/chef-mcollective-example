@@ -22,3 +22,9 @@
 [submodule "imaginary_fileshare/cookbooks/activemq"]
 	path = imaginary_fileshare/cookbooks/activemq
 	url = https://github.com/chef-cookbooks/activemq.git
+[submodule "imaginary_fileshare/cookbooks/java"]
+	path = imaginary_fileshare/cookbooks/java
+	url = https://github.com/agileorbit-cookbooks/java.git
+[submodule "imaginary_fileshare/cookbooks/apt"]
+	path = imaginary_fileshare/cookbooks/apt
+	url = https://github.com/chef-cookbooks/apt.git
