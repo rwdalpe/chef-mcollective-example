@@ -19,3 +19,6 @@
 [submodule "imaginary_fileshare/cookbooks/chef_handler"]
 	path = imaginary_fileshare/cookbooks/chef_handler
 	url = https://github.com/chef-cookbooks/chef_handler.git
+[submodule "imaginary_fileshare/cookbooks/activemq"]
+	path = imaginary_fileshare/cookbooks/activemq
+	url = https://github.com/chef-cookbooks/activemq.git
