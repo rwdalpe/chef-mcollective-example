@@ -13,6 +13,7 @@
 	],
 	"default_attributes": {
 		"chef_client": {
+			"init_style": "none",
 			"config" : {
 				"ssl_verify_mode": ":verify_none",
 				"chef_server_url": "https://chefserver/organizations/org",

@@ -26,6 +26,8 @@ remote_file "/usr/share/mcollective/plugins/mcollective/facts/opscodeohai_facts.
 	action :create
 end
 
+include_recipe "mcollective::chef-agent"
+
 service "mcollective" do
   supports :restart => true, :status => true
   action   [:enable, :start]
@@ -38,5 +40,4 @@ template "/etc/mcollective/server.cfg" do
   group    "root"
   notifies :restart, "service[mcollective]"
 end
-
 

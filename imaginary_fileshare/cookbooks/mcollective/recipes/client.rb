@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-apt_package 'mcollective-client' do
+apt_package "mcollective-client" do
 	:upgrade
 end
 
@@ -16,3 +16,5 @@ template "/etc/mcollective/client.cfg" do
   owner    "root"
   group    "root"
 end
+
+include_recipe "mcollective::chef-agent"
