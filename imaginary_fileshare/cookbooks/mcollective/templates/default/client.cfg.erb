@@ -1,0 +1,15 @@
+connector = activemq
+direct_addressing = 1
+libdir = /usr/share/mcollective/plugins
+logfile = /var/log/mcollective.log
+loglevel = info
+daemonize = 1
+
+securityprovider = psk
+plugin.psk = PASSPHRASE
+
+plugin.activemq.pool.size = 1
+plugin.activemq.pool.1.host = chefserver
+plugin.activemq.pool.1.port = 61613
+plugin.activemq.pool.1.user = mcollective
+plugin.activemq.pool.1.password = marionette

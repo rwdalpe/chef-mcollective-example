@@ -7,7 +7,9 @@
 		"recipe[chef-client-hosts::default]",
 		"recipe[chef-client-files::default]",
 		"recipe[chef-client::default]",
-		"recipe[chef-client::config]"
+		"recipe[chef-client::config]",
+		"recipe[puppetlabs-apt-repo::default]",
+		"recipe[mcollective::server]"
 	],
 	"default_attributes": {
 		"chef_client": {

@@ -1,0 +1,19 @@
+{
+	"name": "server",
+	"chef_type": "role",
+	"json_class": "Chef::Role",
+	"description": "The Chef server and MCollective collective for the demo",
+	"run_list": [
+		"recipe[chef-server::default]",
+		"recipe[chef-server-validator::default]",
+		"recipe[puppetlabs-apt-repo::default]",
+		"recipe[activemq::default]",
+		"recipe[activemq-custom-config::default]",
+		"recipe[mcollective::client]"
+	],
+	"default_attributes": {
+		"activemq": {
+			"enable_stomp": true
+		}
+	}
+}
