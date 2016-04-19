@@ -48,7 +48,7 @@ If you want to observe that the `chef-client` actually does run perform the foll
 
 ````
 cd chef-client
-vagrant ssh
+vagrant ssh chefclient0
 watch -n0.5 'ps aux | grep chef-client'
 ````
 
